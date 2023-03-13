@@ -21,6 +21,7 @@
     "nodemon": "^2.0.21"
   },
   "dependencies": {
+    "dayjs": "^1.11.7",
     "express": "^4.18.2",
     "mongoose": "^7.0.1"
   }
