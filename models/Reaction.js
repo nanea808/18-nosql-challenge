@@ -1,5 +1,5 @@
 // import model and Schema from mongoose
-const { model, Schema, Types } = require("mongoose");
+const { Schema, Types } = require("mongoose");
 
 const reactionSchema = new Schema({
   reactionId: { type: Types.ObjectId, default: new Types.ObjectId() },

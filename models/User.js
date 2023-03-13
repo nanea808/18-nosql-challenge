@@ -1,6 +1,6 @@
 // import mongoose schema and model (also any models needed for population)
 const { Schema, model } = require("mongoose");
-const { Thought } = require("../models");
+const Thought = require("./Thought");
 
 // Schema
 const userSchema = new Schema(
@@ -35,12 +35,12 @@ userSchema.virtual('friendCount').get(function () {
 // Initialize the model
 const User = model('user', userSchema);
 
-// const newUser = new User({
-//   username: "alex",
-//   email: "this.email@gmail.com",
-// });
+const newUser = new User({
+  username: "alex",
+  email: "this.email@gmail.com",
+});
 
-// console.log(newUser);
+console.log(newUser);
 
 // export the model
 module.exports = User;
