@@ -1,6 +1,6 @@
 // import mongoose schema and model (also any models needed for population)
 const { Schema, model } = require("mongoose");
-// const { Thought } = require("../models");
+const { Thought } = require("../models");
 
 // Schema
 const userSchema = new Schema(
