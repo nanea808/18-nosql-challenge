@@ -1,7 +1,8 @@
 // import mongoose schema and model (also any models needed for population)
 const { Schema, model } = require("mongoose");
 const reactionSchema = require("./Reaction");
-const dayjs = require('dayjs');
+// const dayjs = require('dayjs');
+
 // Schema
 const thoughtSchema = new Schema(
   {
